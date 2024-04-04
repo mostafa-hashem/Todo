@@ -1,0 +1,57 @@
+name: todo
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  google_fonts: ^4.0.3
+  flutter_localizations:
+    sdk: flutter
+  intl: any
+  provider: ^6.0.5
+  shared_preferences: ^2.1.0
+  localization: ^2.1.0
+  calendar_timeline: ^1.1.2
+  firebase_core: ^2.13.0
+  cloud_firestore: ^4.7.1
+  flutter_slidable: ^3.0.0
+  awesome_dialog: ^3.1.0
+  flutter_screenutil: ^5.8.2
+  firebase_auth: ^4.6.2
+  emoji_picker_flutter: ^1.6.1
+  lint: ^2.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_native_splash: ^2.2.19
+flutter_native_splash:
+  image: assets/images/splash_light.png
+  background_image: assets/images/splash_light_bg.png
+  image_dark: assets/images/splash_dark.png
+  background_image_dark: assets/images/splash_dark_bg.png
+  android_gravity: fill
+  ios_content_mode: scaleAspectFill
+  android: true
+  ios: true
+
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+  generate: true
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
